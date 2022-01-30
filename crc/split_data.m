@@ -1,10 +1,13 @@
 function [ Dic, train, test ] = split_data( data, labels, param, reallabel)
 % Split the data for 5 different runs and build the dictionary.
+fprintf('--- Start of split data ---');
 
 class_n=length(unique(labels)); %number of class (people)
 N1=param.dictionary_size; 
 N2=param.train_size;
 N3=param.test_size;
+
+fprintf('dic size: %d , train size: %d , test_size: %d , ', N1, N2, N3);
 
 % Compute the size of group representation coefficients in 2-D plane:
 % (m11, m22)
@@ -51,6 +54,9 @@ end
 startTrain = 0;
 startTest = 0;
 indiceKeeper = [];
+g=sprintf('%d ', length(data));
+fprintf('Data: %s\n', g);
+fprintf('=======================================================================================');
 for i=1:class_n
     % Sizes per class.
     NuSamples = sum(labels==meters(i));
@@ -63,6 +69,9 @@ for i=1:class_n
 
     in2=in2(randperm(length(in2)));
     for k=1:length(in)
+        h=sprintf('%d ', data(:,in2(k)));
+        fprintf('Len data: %d , k = %s , ' g, k);
+        fprintf('Data(k): %s \n', h);
         D(:,in(k))=data(:,in2(k));
         DicLabel(in(k)) = reallabel(in2(k));
 %        figure(99),imshow(reshape(D(:,k-1),32,32),[])

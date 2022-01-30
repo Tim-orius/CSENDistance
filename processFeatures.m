@@ -62,6 +62,14 @@ measurement_type = 'eigen'; % Gauss, eigen, or None. None means no compression.
 projection_matrix = 'l2_norm'; % minimum_norm or l2_norm.
     
 rng(1)
+fprintf('Params to split data');
+g=sprintf('%d ', length(data));
+fprintf('Data: %s\n', g);
+g1=sprintf('%d ', length(label));
+fprintf('label: %s\n', g1);
+g3=sprintf('%d ', length(reallabel));
+fprintf('reallabel: %s\n', g3);
+
 [Dic_all(1), train_all(1), test_all(1)] = split_data(data,label,param,reallabel);
 [Dic_all(2), train_all(2), test_all(2)] = split_data(data,label,param,reallabel);
 [Dic_all(3), train_all(3), test_all(3)] = split_data(data,label,param,reallabel);
