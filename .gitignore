@@ -28,6 +28,10 @@ weights
 *.h5
 results
 
+# Matlab files
+matc/
+*.mlx
+
 # Other
 *.bak
 *.pyc

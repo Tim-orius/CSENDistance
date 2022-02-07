@@ -25,6 +25,7 @@ function [] = prepareCSEN(Dic, param)
     y_test = zeros(length(testLabel), maskM, maskN);
 
     for i=1:length(Dic.label)
+        fprintf('i = %s --- \n', num2str(i));
         x_dic(i,:,:) = reshape(prox_Y0(:, i), maskM, maskN);
         y_dic(i,:,:)=(Dic.label_matrix == Dic.label(i));
     end
