@@ -22,8 +22,11 @@ from tqdm import tqdm
 
 argparser = argparse.ArgumentParser(description='Feature extraction.')
 argparser.add_argument('-m', '--model', help='Model name: DenseNet121, VGG19, or ResNet50.')
+argparser.add_argument('-s', '--samples', default=20000, type=int, nargs='?',
+					   help='Number of random samples to use for training. Default = 20,000 / Max = 141981')
 args = argparser.parse_args()
 modelName = args.model
+sample_size = args.samples
 
 # Path for the data and annotations.
 kittiData = 'kitti-data/'
@@ -32,7 +35,7 @@ imagePath = kittiData + 'training/image_2/'
 
 # Load a random sample
 n = 141981 #  Number of records in file
-s = 10000 # Desired sample size
+s = sample_size # Desired sample size
 skip = sorted(random.sample(range(n),n-s))[1:]
 
 df = pd.read_csv(kittiData + 'annotations_inc_id.csv')
@@ -110,7 +113,9 @@ for idx, row in df_pairs.iterrows():
 
 	# Angle between the objects
 	angle = abs(abs(obj0['observation angle']) - abs(obj1['observation angle']))
-	gtd.append([angle, row['obj distance 2D']])
+	interdistance = round(row['obj distance 2D'] * 100)
+	interdistance /= 100
+	gtd.append([angle, interdistance])
 		
 	if visualize:
 		cv2.rectangle(im, (x01, y01), (x02, y02), (0, 255, 0), 3)

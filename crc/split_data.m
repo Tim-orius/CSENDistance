@@ -60,9 +60,17 @@ for i=1:class_n
     
     in=find(A(:)==i);
     in2=find(labels==meters(i));
+    % Expects length(in) == length(in2) ?
+    
+    len_in=length(in);
+    max_range=length(in2);
+
+    if len_in<max_range
+        max_range=len_in;
+    end
 
     in2=in2(randperm(length(in2)));
-    for k=1:length(in)
+    for k=1:max_range
         D(:,in(k))=data(:,in2(k));
         DicLabel(in(k)) = reallabel(in2(k));
 %        figure(99),imshow(reshape(D(:,k-1),32,32),[])

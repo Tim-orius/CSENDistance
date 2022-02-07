@@ -9,7 +9,7 @@
 clc, clear, close all
 addpath(genpath('crc'));
 % Change the file name accordingly.
-param.modelName = 'DenseNet121';
+param.modelName = 'VGG19';
 %1D or 2D corresponding to the traditional and proposed dictionary designs.
 param.DicDesign = '2D';
 inputData = strcat('features/features_max_', param.modelName, '.mat');
@@ -116,8 +116,13 @@ for k = 1:nuR
             param.MR = 1;
     end
   
-    A  =  phi*D;
-    A  =  A./( repmat(sqrt(sum(A.*A)), [m,1]) ); %normalization
+    Z  =  phi*D;
+    multi = Z.*Z;
+    summi = sum(multi);
+    rooti = sqrt(summi);
+    repi = repmat(rooti, [m,1])
+    divi = Z./repi
+    A  =  Z./( repmat(sqrt(sum(Z.*Z)), [m,1]) ); %normalization
 
     % Measurements for dictionary.
     Y0 = phi * Dic.dictionary;
