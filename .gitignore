@@ -35,3 +35,4 @@ matc/
 # Other
 *.bak
 *.pyc
+.txt
