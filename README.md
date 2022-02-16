@@ -72,13 +72,16 @@ python kitti-data/generate-csv.py \
     --output=kitti-data/annotations.csv
 ```
 
+*Further, for our modified model it is necessary to run the scripts `give-ids.py` and `generate-data-interdist.py`*
+
 ## Feature Extraction
 
 Features are extracted using ```feature_extraction.py``` script. The supported models are ```DenseNet121```, ```VGG19```, and ```ResNet50``` (DenseNet-121 [1], VGG19 [2], ResNet-50 [3]):
 
 ```
-python feature_extraction.py --model VGG19 
+python feature_extraction.py --model VGG19 [-s <sample size>]
 ```
+*We added the optional argument for a sample size. The default value is 20,000 and we advise to not go below that value. The maximum number of samples is ~140,000.*
 
 Next, the features are further processed and ordered using ```processFeatures.m```. In the script, please also set the proper model name ```param.modelName``` to either ```DenseNet121```, ```VGG19```, or ```ResNet50``` and ```param.DicDesign``` to ```2D``` or ```1D``` corresponding to the dictionary designs used in CSEN and CL-CSEN approaches. This procedure is only needed for the CSEN, CL-CSEN, and SVR approaches. If you are only interested in running SRC and CRC methods, you may proceed to the related sections: [SRC](#Sparse-Representation-based-Classification-SRC) and [CRC](#Collaborative-Representation-based-Classification-CRC). Note that the script of ```processFeatures.m``` produces the predicted distances using the CRC-light model that is discussed in the paper.
 
