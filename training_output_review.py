@@ -21,6 +21,8 @@ srds = []
 rmses = []
 rmselogs = []
 
+params = [[], []]
+
 for line in lines:
     if line.__contains__("ARD:"):
         value = line.split(": ")[1].replace('\n', '')
@@ -34,6 +36,12 @@ for line in lines:
     elif line.__contains__("RMSELog:"):
         value = line.split(": ")[1].replace('\n', '')
         rmselogs.append(float(value))
+    elif line.__contains__("Total params:"):
+        value = line.split(": ")[1].replace('\n', '')
+        params[0].append(value)
+    elif line.__contains__("Trainable params:"):
+        value = line.split(": ")[1].replace('\n', '')
+        params[1].append(value)
 
 def mean(l: list):
     return sum(l) / len(l) if len(l) > 0 else None
@@ -44,6 +52,11 @@ def std(l: list, m):
     sum_squares = sum([(val - m)**2 for val in l])
     return np.sqrt(sum_squares / (len(l) - 1)) / np.sqrt(len(l))
 
+def every_second(l):
+    return [l[ii] for ii in range(len(l)) if ii%2==0]
+
+def round_to_third(val):
+    return (round(val*1000)) / 1000
 
 ard = mean(ards)
 ard_std = std(ards, ard)
@@ -54,5 +67,7 @@ rmse_std = std(rmses, rmse)
 rmselog = mean(rmselogs)
 rmselog_std = std(rmselogs, rmselog)
 
-print(f'Metrics for the five runs:\n ARD = {ard} +/- {ard_std}\n SRD = {srd} +/- {srd_std}\n RMSE = {rmse} +/- '
-      f'{rmse_std}\n RMSElog = {rmselog} +/- {rmselog_std}')
+print(f'Metrics for the five runs:\n ARD = {round_to_third(ard)} +/- {round_to_third(ard_std)}\n SRD = '
+      f'{round_to_third(srd)} +/- {round_to_third(srd_std)}\n RMSE = {round_to_third(rmse)} +/- '
+      f'{round_to_third(rmse_std)}\n RMSElog = {round_to_third(rmselog)} +/- {round_to_third(rmselog_std)}'
+      f'\n --- \n Number of parameters in each run: {every_second(params[0])}\n / Trainable: {every_second(params[1])}')
