@@ -1,0 +1,478 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{zhu2019learning}{misc}{}
+      \name{author}{6}{}{%
+        {{hash=416823f9179d917099ad4b5576335701}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=49a9a9c965001db641ceb0e392d3b385}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0e5c74555e51c7eeda7a88f659e1ebe5}{%
+           family={Abu-Haimed},
+           familyi={A\bibinithyphendelim H\bibinitperiod},
+           given={Husam},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b8e95bdd206596b3f2c6665bc7a70b39}{%
+           family={Lien},
+           familyi={L\bibinitperiod},
+           given={Kuo-Chin},
+           giveni={K\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=145f2c660c33e0e9cb4752560d58363c}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Dongdong},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e99f316535764e36bb403df125d92626}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={Junli},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{baf7441e153aa315e032259c5c855309}
+      \strng{fullhash}{16b302a2b7aa40fc696033477c65a1b4}
+      \strng{bibnamehash}{baf7441e153aa315e032259c5c855309}
+      \strng{authorbibnamehash}{baf7441e153aa315e032259c5c855309}
+      \strng{authornamehash}{baf7441e153aa315e032259c5c855309}
+      \strng{authorfullhash}{16b302a2b7aa40fc696033477c65a1b4}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{Learning Object-specific Distance from a Monocular Image}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1909.04182
+      \endverb
+    \endentry
+    \entry{ahishali2021representation}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=a2daea42305b7be4a280584cdd1317e4}{%
+           family={Ahishali},
+           familyi={A\bibinitperiod},
+           given={Mete},
+           giveni={M\bibinitperiod}}}%
+        {{hash=45a7523a49896bb4e1fcb3e5c8bad692}{%
+           family={Yamac},
+           familyi={Y\bibinitperiod},
+           given={Mehmet},
+           giveni={M\bibinitperiod}}}%
+        {{hash=88fcbfc7f3b82fa8bcc91190c133d9f0}{%
+           family={Kiranyaz},
+           familyi={K\bibinitperiod},
+           given={Serkan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b680f786282bcb3b9a76782c1aa50289}{%
+           family={Gabbouj},
+           familyi={G\bibinitperiod},
+           given={Moncef},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{796e3bc8b5a7fb937bb33a27c5c43bf1}
+      \strng{fullhash}{262cc12f8132a5e99f0842a760a88845}
+      \strng{bibnamehash}{796e3bc8b5a7fb937bb33a27c5c43bf1}
+      \strng{authorbibnamehash}{796e3bc8b5a7fb937bb33a27c5c43bf1}
+      \strng{authornamehash}{796e3bc8b5a7fb937bb33a27c5c43bf1}
+      \strng{authorfullhash}{262cc12f8132a5e99f0842a760a88845}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{Representation Based Regression for Object Distance Estimation}
+      \field{year}{2021}
+      \verb{eprint}
+      \verb 2106.14208
+      \endverb
+    \endentry
+    \entry{CSEN}{}{}
+      \name{author}{4}{}{%
+        {{hash=86871abc36dcfdc7546f2983eb648b31}{%
+           family={yamaç},
+           familyi={y\bibinitperiod},
+           given={Mehmet},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a2daea42305b7be4a280584cdd1317e4}{%
+           family={Ahishali},
+           familyi={A\bibinitperiod},
+           given={Mete},
+           giveni={M\bibinitperiod}}}%
+        {{hash=88fcbfc7f3b82fa8bcc91190c133d9f0}{%
+           family={Kiranyaz},
+           familyi={K\bibinitperiod},
+           given={Serkan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b680f786282bcb3b9a76782c1aa50289}{%
+           family={Gabbouj},
+           familyi={G\bibinitperiod},
+           given={Moncef},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e094571cea801c0d6fa6dec19001f558}
+      \strng{fullhash}{d7607995a9bce19cd692b51f63cf0fea}
+      \strng{bibnamehash}{e094571cea801c0d6fa6dec19001f558}
+      \strng{authorbibnamehash}{e094571cea801c0d6fa6dec19001f558}
+      \strng{authornamehash}{e094571cea801c0d6fa6dec19001f558}
+      \strng{authorfullhash}{d7607995a9bce19cd692b51f63cf0fea}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{03}
+      \field{title}{Convolutional Sparse Support Estimator Network (CSEN) From energy efficient support estimation to learning-aided Compressive Sensing}
+      \field{year}{2020}
+    \endentry
+    \entry{santoro2017simple}{misc}{}
+      \name{author}{7}{}{%
+        {{hash=0b3e9682fc5db39420c22d4267683326}{%
+           family={Santoro},
+           familyi={S\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6087d2ea339b8f52276e883d86bd18f3}{%
+           family={Raposo},
+           familyi={R\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8a3d000c7c7b837203007400341a4af4}{%
+           family={Barrett},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelimb G.\bibnamedelimi T.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=d58258080dd629417082d88563e26650}{%
+           family={Malinowski},
+           familyi={M\bibinitperiod},
+           given={Mateusz},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7045b009b04d57bd2e19b5dfa0864d4f}{%
+           family={Pascanu},
+           familyi={P\bibinitperiod},
+           given={Razvan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5a63429a6e1733e8f3f4dc71cbb6eec9}{%
+           family={Battaglia},
+           familyi={B\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3a6fdf4df9a25f1d2d506ad9e86e1f6c}{%
+           family={Lillicrap},
+           familyi={L\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{49481181f75531d9135d2f45e38003bc}
+      \strng{fullhash}{9d353a906a8984bbfceec63b1d8f7ecc}
+      \strng{bibnamehash}{49481181f75531d9135d2f45e38003bc}
+      \strng{authorbibnamehash}{49481181f75531d9135d2f45e38003bc}
+      \strng{authornamehash}{49481181f75531d9135d2f45e38003bc}
+      \strng{authorfullhash}{9d353a906a8984bbfceec63b1d8f7ecc}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CL}
+      \field{eprinttype}{arXiv}
+      \field{title}{A simple neural network module for relational reasoning}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1706.01427
+      \endverb
+    \endentry
+    \entry{wang2018videos}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=84a57ab121539e94069a33b4d40492c1}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiaolong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=83dd9d464c9f0ea982254939a7f021d8}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Abhinav},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{84c056b895873cc587ce896ab813bbf9}
+      \strng{fullhash}{84c056b895873cc587ce896ab813bbf9}
+      \strng{bibnamehash}{84c056b895873cc587ce896ab813bbf9}
+      \strng{authorbibnamehash}{84c056b895873cc587ce896ab813bbf9}
+      \strng{authornamehash}{84c056b895873cc587ce896ab813bbf9}
+      \strng{authorfullhash}{84c056b895873cc587ce896ab813bbf9}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{Videos as Space-Time Region Graphs}
+      \field{year}{2018}
+      \verb{eprint}
+      \verb 1806.01810
+      \endverb
+    \endentry
+    \entry{VGG}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9d16b7284df92c9adaee86c37ab992df}{%
+           family={Simonyan},
+           familyi={S\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c72fc39e94030f67717052309266a44d}{%
+           family={Zisserman},
+           familyi={Z\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{25d2f3c4577a6632d37f0126cc781232}
+      \strng{fullhash}{25d2f3c4577a6632d37f0126cc781232}
+      \strng{bibnamehash}{25d2f3c4577a6632d37f0126cc781232}
+      \strng{authorbibnamehash}{25d2f3c4577a6632d37f0126cc781232}
+      \strng{authornamehash}{25d2f3c4577a6632d37f0126cc781232}
+      \strng{authorfullhash}{25d2f3c4577a6632d37f0126cc781232}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CoRR}
+      \field{title}{Very Deep Convolutional Networks for Large-Scale Image Recognition}
+      \field{volume}{abs/1409.1556}
+      \field{year}{2015}
+    \endentry
+    \entry{Dense}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0d12f90a1d1945cb1b98f583c9dc9572}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Gao},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f7eda249dc15ce9f452344ec95bbcc67}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Zhuang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=68a0238356fbd88b34be8886f25938a7}{%
+           family={Weinberger},
+           familyi={W\bibinitperiod},
+           given={Kilian\bibnamedelima Q.},
+           giveni={K\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ac67dd260368617d1722dcb0ad43ff0}
+      \strng{fullhash}{6ac67dd260368617d1722dcb0ad43ff0}
+      \strng{bibnamehash}{6ac67dd260368617d1722dcb0ad43ff0}
+      \strng{authorbibnamehash}{6ac67dd260368617d1722dcb0ad43ff0}
+      \strng{authornamehash}{6ac67dd260368617d1722dcb0ad43ff0}
+      \strng{authorfullhash}{6ac67dd260368617d1722dcb0ad43ff0}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Densely Connected Convolutional Networks}
+      \field{volume}{abs/1608.06993}
+      \field{year}{2016}
+      \verb{eprint}
+      \verb 1608.06993
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1608.06993
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1608.06993
+      \endverb
+    \endentry
+    \entry{RES}{article}{}
+      \name{author}{4}{}{%
+        {{hash=6b4b60e909e78633945f3f9c9dc83e01}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Kaiming},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5e72bc22dbcf0984c6d113d280e36990}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xiangyu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=bb295293acacd54387339079ebbe4ead}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Shaoqing},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f85751488058842b5777c7b4074077b5}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6edb98fe38401d2fe4a026f5ce6e8451}
+      \strng{fullhash}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \strng{bibnamehash}{6edb98fe38401d2fe4a026f5ce6e8451}
+      \strng{authorbibnamehash}{6edb98fe38401d2fe4a026f5ce6e8451}
+      \strng{authornamehash}{6edb98fe38401d2fe4a026f5ce6e8451}
+      \strng{authorfullhash}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Deep Residual Learning for Image Recognition}
+      \field{volume}{abs/1512.03385}
+      \field{year}{2015}
+      \verb{eprint}
+      \verb 1512.03385
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1512.03385
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1512.03385
+      \endverb
+    \endentry
+    \entry{DBLP:journals/corr/Chollet16a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=14134a39113404b1f80969c9ccc1f71e}{%
+           family={Chollet},
+           familyi={C\bibinitperiod},
+           given={Fran{ç}ois},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{14134a39113404b1f80969c9ccc1f71e}
+      \strng{fullhash}{14134a39113404b1f80969c9ccc1f71e}
+      \strng{bibnamehash}{14134a39113404b1f80969c9ccc1f71e}
+      \strng{authorbibnamehash}{14134a39113404b1f80969c9ccc1f71e}
+      \strng{authornamehash}{14134a39113404b1f80969c9ccc1f71e}
+      \strng{authorfullhash}{14134a39113404b1f80969c9ccc1f71e}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Xception: Deep Learning with Depthwise Separable Convolutions}
+      \field{volume}{abs/1610.02357}
+      \field{year}{2016}
+      \verb{eprint}
+      \verb 1610.02357
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1610.02357
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1610.02357
+      \endverb
+    \endentry
+    \entry{DBLP:journals/corr/SzegedyVISW15}{article}{}
+      \name{author}{5}{}{%
+        {{hash=ed568d9c3bb059e6bf22899fbf170f86}{%
+           family={Szegedy},
+           familyi={S\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8051922e7bd286f884bfbd1023ef62f5}{%
+           family={Vanhoucke},
+           familyi={V\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=5543e82359e26b035efc009cb3efff9d}{%
+           family={Ioffe},
+           familyi={I\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8f128e70084608a2c29c497ebd794f87}{%
+           family={Shlens},
+           familyi={S\bibinitperiod},
+           given={Jonathon},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5f1430f41772f4a524875e509005837c}{%
+           family={Wojna},
+           familyi={W\bibinitperiod},
+           given={Zbigniew},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{80f8e6bfc3aff3e75b2807a6f6962740}
+      \strng{fullhash}{42871c217fd91b9d7713c382a0cf9672}
+      \strng{bibnamehash}{80f8e6bfc3aff3e75b2807a6f6962740}
+      \strng{authorbibnamehash}{80f8e6bfc3aff3e75b2807a6f6962740}
+      \strng{authornamehash}{80f8e6bfc3aff3e75b2807a6f6962740}
+      \strng{authorfullhash}{42871c217fd91b9d7713c382a0cf9672}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Rethinking the Inception Architecture for Computer Vision}
+      \field{volume}{abs/1512.00567}
+      \field{year}{2015}
+      \verb{eprint}
+      \verb 1512.00567
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1512.00567
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1512.00567
+      \endverb
+    \endentry
+    \entry{Geiger2012CVPR}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=06133052ac3c14a188601b82783cd4f7}{%
+           family={Geiger},
+           familyi={G\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f594289a77a4b801a7156edc29235ad8}{%
+           family={Lenz},
+           familyi={L\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=bc58c1e920023b071a4d0695299cf804}{%
+           family={Urtasun},
+           familyi={U\bibinitperiod},
+           given={Raquel},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{627edf12ee4004074265a942326edc30}
+      \strng{fullhash}{627edf12ee4004074265a942326edc30}
+      \strng{bibnamehash}{627edf12ee4004074265a942326edc30}
+      \strng{authorbibnamehash}{627edf12ee4004074265a942326edc30}
+      \strng{authornamehash}{627edf12ee4004074265a942326edc30}
+      \strng{authorfullhash}{627edf12ee4004074265a942326edc30}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Conference on Computer Vision and Pattern Recognition (CVPR)}
+      \field{title}{Are we ready for Autonomous Driving? The KITTI Vision Benchmark Suite}
+      \field{year}{2012}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

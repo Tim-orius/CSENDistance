@@ -1,0 +1,17 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'report.blg'
+[167] biber:322> INFO - === Mi Feb 16, 2022, 22:56:42
+[202] Biber.pm:415> INFO - Reading 'report.bcf'
+[372] Biber.pm:940> INFO - Using all citekeys in bib section 0
+[403] Biber.pm:4256> INFO - Processing section 0
+[404] Utils.pm:75> INFO - Globbing data source 'bibliography.bib'
+[404] Utils.pm:91> INFO - Globbed data source 'bibliography.bib' to bibliography.bib
+[426] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[429] bibtex.pm:1653> INFO - LaTeX decoding ...
+[469] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliography.bib'
+[738] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[738] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[739] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[739] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[764] bbl.pm:652> INFO - Writing 'report.bbl' with encoding 'UTF-8'
+[783] bbl.pm:755> INFO - Output to report.bbl

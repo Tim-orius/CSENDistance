@@ -1,0 +1,24 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Motivation}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{Research Papers}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{Paper I: Learning Object-Specific Distance From a Monocular Image}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.2}{Paper II: Representation Based Regression for Object Distance Estimation}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{Evaluating Other Approaches}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{Relational Reasoning \046 Relation Networks}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{Space-Time Region Graphs \046 Graph Convolutional Networks}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{Model Modification}{}% 9
+\BOOKMARK [2][-]{subsection.4.1}{Recreating Results of Paper II}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.2}{Modifying Original Model}{section.4}% 11
+\BOOKMARK [1][-]{section.5}{Interobject Distance Estimation}{}% 12
+\BOOKMARK [2][-]{subsection.5.1}{Background}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.2}{Requirements}{section.5}% 14
+\BOOKMARK [2][-]{subsection.5.3}{Data Acquisition}{section.5}% 15
+\BOOKMARK [2][-]{subsection.5.4}{Data Processing}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.5}{Prototype}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.6}{Altered Prototype}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.7}{Performance evaluation}{section.5}% 19
+\BOOKMARK [3][-]{subsubsection.5.7.1}{Prototype Performance}{subsection.5.7}% 20
+\BOOKMARK [3][-]{subsubsection.5.7.2}{Altered Prototype Performance}{subsection.5.7}% 21
+\BOOKMARK [2][-]{subsection.5.8}{Experiments}{section.5}% 22
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 23
+\BOOKMARK [2][-]{subsubsection.6.0.1}{Future Work}{section.6}% 24
