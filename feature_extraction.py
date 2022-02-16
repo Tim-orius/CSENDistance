@@ -42,6 +42,7 @@ df = pd.read_csv(kittiData + 'annotations_inc_id.csv')
 df_pairs = pd.read_csv(kittiData + 'annotations_interdistance.csv', skiprows=skip)
 
 visualize = False # Visualization of the objects.
+save_imgs = False
 objectFeatures = []
 gtd = []
 
@@ -88,7 +89,7 @@ for idx, row in df_pairs.iterrows():
 
 	if visualize:
 		cv2.imshow("cropped", cv2.hconcat([Object1, Object2]))
-		time.sleep(5)
+		#time.sleep(5)
 
 	# Expand dimensions
 	Object1 = np.expand_dims(cv2.cvtColor(Object1, cv2.COLOR_BGR2RGB), axis=0)
@@ -116,18 +117,22 @@ for idx, row in df_pairs.iterrows():
 	interdistance = round(row['obj distance 2D'] * 100)
 	interdistance /= 100
 	gtd.append([angle, interdistance])
-		
-	if visualize:
+
+	if visualize or save_imgs:
 		cv2.rectangle(im, (x01, y01), (x02, y02), (0, 255, 0), 3)
 		cv2.rectangle(im, (x11, y11), (x12, y12), (0, 255, 0), 3)
 		string = "({}, {})".format(angle, row['obj distance 2D'])
 		cv2.putText(im, string, (int((x01+x02)/2), int((y01+y02)/2)), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2, cv2.LINE_AA)
+		
+	if visualize:
 
 		cv2.imshow("detections", im)
 		if cv2.waitKey(1) & 0xFF == ord('q'):
 			break
 
-		#time.sleep(15)
+		cv2.imwrite('process_imgs/image'+str(idx)+'.png', im)
+
+		#time.sleep(20)
 
 # Record features.
 if not os.path.exists('features/'): os.makedirs('features/')
