@@ -1,7 +1,11 @@
 Representation Based Regression for Object Distance Estimation
 =============================
 
-This repository includes the implentation of the methods in [Representation Based Regression for Object Distance Estimation](https://arxiv.org/abs/2106.14208).
+This repository includes a *modified* implentation of the methods in [Representation Based Regression for Object Distance Estimation](https://arxiv.org/abs/2106.14208). *Our group used the Regressor Model to create a distance estimator for inter-object distances*.
+
+**Modification authors: Benedikt Schröter, Nils Möbus, Carla Frenzel, Tim Rosenkranz - Goethe University Frankfurt am Main, Germany**
+
+*Original Readme:*
 
 ![Example Results](/images/samples.png)
 
