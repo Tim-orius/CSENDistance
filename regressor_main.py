@@ -25,11 +25,13 @@ ap = argparse.ArgumentParser()
 ap.add_argument('--method', default='CSEN', 
                 help="Method for the regression: CL-CSEN, CSEN, CL-CSEN-1D, CSEN-1D, SVR.")
 ap.add_argument('--feature_type', help="Features extracted by the network (DenseNet121, VGG19, ResNet50).")
+ap.add_argument('--outfile', help="result file")
 ap.add_argument('--weights', default=False, help="Evaluate the model.")
 args = vars(ap.parse_args())
 modelType = args['method'] # CL-CSEN, CSEN, and SVR.
 feature_type = args['feature_type']
 weights = args['weights']
+outfile = args['outfile']
 
 MR = '0.5' # Measurement rate for CL-CSEN and CSEN approaches.
 # For the results.
@@ -76,6 +78,17 @@ for set in np.array([1, 2, 3, 4, 5]): # 5 different runs.
 
     metric.compute(set, y_pred, modelFold.y_test)
     
+    ##create file to save results from all 5 runs
+    f=open(outfile + ".txt", "a+")
+    f.write(str(metric.th))
+    f.write(str(metric.ard))
+    f.write(str(metric.srd))
+    f.write(str(metric.rmse))
+    f.write(str(metric.rmseLog))
+    f.write('\n')
+    f.write('\n')
+    
+    f.close()
     metric.display(set) # Print performances for this set.
 
     del modelFold
